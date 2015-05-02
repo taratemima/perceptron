@@ -1,0 +1,20 @@
+import implement
+import unittest
+
+class testPercepton(unittest.TestCase):
+    def setUp(self):
+        pass 
+        
+    def testFindOutType(self):
+        pass
+        
+    def testFindOutFile(self):
+        self.assertRaises(IOError, implement.Percepton())
+        #self.assertEquals(implement.Percepton(), ' ')
+        
+    def testFindOutDependencies(self):
+        pass
+        
+
+if __name__ == "__main__":
+    unittest.main()
