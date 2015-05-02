@@ -21,4 +21,4 @@ def updateWeights(w, phi, y):
     pass 
 
 def Percepton():
-    predictAll('/exampleDir/example.txt', 'exampleDir/trainsample.txt')
+    predictAll('/storage/emulated/0/example.txt', '/storage/emulated/0/trainsample.txt')
