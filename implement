@@ -1,0 +1,24 @@
+def predictAll(modelFile, inputFile):
+    model = (open(modelFile)).read() 
+    inputText = (open(inputFile)).read()
+    print model
+    print inputText
+    
+def predictOne(w, phi):
+    pass 
+  #I see where I messed up, I assumed the output was a boolean, not an integar
+                   
+def createFeatures(x):
+    pass 
+
+def createMapFromFile(fn):
+    pass 
+                    
+def newWordsFromTesting(phi, testMap):
+    pass
+    
+def updateWeights(w, phi, y):
+    pass 
+
+def Percepton():
+    predictAll('/exampleDir/example.txt', 'exampleDir/trainsample.txt')
